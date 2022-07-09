@@ -2,74 +2,77 @@
 <html lang="pt-BR">
 	<head>
 		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Formatação em um formulário</title>
         <link rel="stylesheet" href="css/estilos.css">
 	</head>
-	<body>           
-        <h1>Validação e Formatação de Campos</h1>
-        <form class="formulario" >
-            <div>
+	<body>
+        <section class="container"></section>           
+            <h1>Validação e Formatação de Campos</h1>
+            <form class="formulario" >
+                <div>
+                
+                    <label>Nome:</label>
+                    <input type="text" class="nameClient" placeholder="Digite seu nome"/ required>            
+                </div>
+                <div>
+                    <label>Sobrenome:</label>
+                    <input type="text" class="sobrenome"  placeholder="Digite seu sobrenome"/ required>
+                </div>
+                <div>
+                    <label>E-mail:</label>
+                    <input type="email" class="email" placeholder="digite o seu e-mail"/ required>
+                </div>
+                <div classe="data">
+                    <label>Data de Nascimento: </label>
+                    <input type="date" id="campo_data"/ required>
+                </div>  
+                <div>
+                    <label>CPF:</label> 
+                    <input type="text" id="campo_cpf" placeholder="Apenas Números" maxlength="11"/ required>
+                </div>  
+                <div>
+                    <label>Celular: </label>
+                    <input type="text" id="campo_celular" placeholder="Apenas Números" maxlength="11"/ required>
+                </div>   
+                <div>
+                    <label>Telefone Fixo:</label> 
+                    <input type="text" id="campo_fixo" placeholder="Apenas Números" maxlength="10" />
+                </div> 
+                <div class="cor">
+                    <h2>Sexo:</h2>
+                    <input type="radio" name="sexo" value="fem"> Feminino<br>
+                    <input type="radio" name="sexo" value="mas"> Masculino<br>
+                    <input type="radio" name="sexo" value="other"> Outro<br>
+                </div>
+                <div class="irmaos">
+                    <label>Quantidade de Irmãos:</label>
+                        <select name="irmaos">
+                            <option value="zero">0</option>
+                            <option value="um">1</option>
+                            <option value="dois">2</option>
+                            <option value="tres">3</option>
+                            <option value="quatro">4</option>
+                            <option value="cinco">5</option>
+                            <option value="seis">6</option>
+                            <option value="sete">7</option>
+                            <option value="oito">8</option>
+                            <option value="nova">9</option>
+                            <option value="dez">10</option>
+                        </select>
+                </div>
+                <div>
+                    <label>Mensagem: </label>
+                    <textarea name="descricao" rows="10" placeholder="*Deixe um conmetário*"></textarea>
+                </div>             
+                <button type="submit" onclick="funcao1()" value="Exibir Alert"> Enviar</button>
+                
+                
+            </form>
+            <script src="main.js"></script>
+        </section>
             
-                <label>Nome:</label>
-                <input type="text" class="nameClient" placeholder="Digite seu nome"/ required>            
-            </div>
-            <div>
-                <label>Sobrenome:</label>
-                <input type="text" class="sobrenome"  placeholder="Digite seu sobrenome"/ required>
-            </div>
-            <div>
-                <label>E-mail:</label>
-                <input type="email" class="email" placeholder="digite o seu e-mail"/ required>
-            </div>
-            <div classe="data">
-                <label>Data de Nascimento: </label>
-                <input type="date" id="campo_data"/ required>
-            </div>  
-            <div>
-                <label>CPF:</label> 
-                <input type="text" id="campo_cpf" placeholder="Apenas Números" maxlength="11"/ required>
-            </div>  
-            <div>
-                <label>Celular: </label>
-                <input type="text" id="campo_celular" placeholder="Apenas Números" maxlength="11"/ required>
-            </div>   
-            <div>
-                <label>Telefone Fixo:</label> 
-                <input type="text" id="campo_fixo" placeholder="Apenas Números" maxlength="10" />
-            </div> 
-            <div class="cor">
-                <h2>Sexo:</h2>
-                <input type="radio" name="sexo" value="fem"> Feminino<br>
-                <input type="radio" name="sexo" value="mas"> Masculino<br>
-                <input type="radio" name="sexo" value="other"> Outro<br>
-            </div>
-            <div class="irmaos">
-                <label>Quantidade de Irmãos:</label>
-                    <select name="irmaos">
-                        <option value="zero">0</option>
-                        <option value="um">1</option>
-                        <option value="dois">2</option>
-                        <option value="tres">3</option>
-                        <option value="quatro">4</option>
-                        <option value="cinco">5</option>
-                        <option value="seis">6</option>
-                        <option value="sete">7</option>
-                        <option value="oito">8</option>
-                        <option value="nova">9</option>
-                        <option value="dez">10</option>
-                    </select>
-            </div>
-            <div>
-                <label>Mensagem: </label>
-                <textarea name="descricao" rows="10" placeholder="*Deixe um conmetário*"></textarea>
-            </div>             
-            <button type="submit" onclick="funcao1()" value="Exibir Alert"> Enviar</button>
             
             
-        </form>
-        <script src="main.js"></script>
-        
-        
-        
     </body>
 </html>
