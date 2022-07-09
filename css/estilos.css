@@ -1,11 +1,11 @@
-@font-face{
-    font-family: Roboto;
-  	src: url(../font/Roboto-Black.ttf);
-}
+
 body{
     margin: 0;
     padding: 15px;
-    background-color: #1e1e1e;
+    
+    background: url(/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1{
