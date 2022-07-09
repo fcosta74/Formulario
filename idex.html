@@ -31,7 +31,7 @@
             </div>  
             <div>
                 <label>Celular: </label>
-                <input type="text" id="campo_celular" placeholder="Digite seu telefone" maxlength="11"/ required>
+                <input type="text" id="campo_celular" placeholder="Apenas Números" maxlength="11"/ required>
             </div>   
             <div>
                 <label>Telefone Fixo:</label> 
@@ -43,7 +43,7 @@
                 <input type="radio" name="sexo" value="mas"> Masculino<br>
                 <input type="radio" name="sexo" value="other"> Outro<br>
             </div>
-            <div>
+            <div class="irmaos">
                 <label>Quantidade de Irmãos:</label>
                     <select name="irmaos">
                         <option value="zero">0</option>
@@ -63,9 +63,9 @@
                 <label>Mensagem: </label>
                 <textarea name="descricao" rows="10" placeholder="*Deixe um conmetário*"></textarea>
             </div>             
-            <button type="submit">Enviar</button>
-
-                    
+            <button type="submit" onclick="funcao1()" value="Exibir Alert"> Enviar</button>
+            
+            
         </form>
         <script src="assents/validação.js"></script>
         

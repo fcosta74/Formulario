@@ -1,9 +1,9 @@
-
 let inputNome = document.querySelector(".nameClient");
 inputNome.addEventListener("keydown", function(e) {  
   if (e.key > "0" && e.key < "9") {
     e.preventDefault();
   }
+  
 });
 let inputSobrenome = document.querySelector(".sobrenome");
 inputSobrenome.addEventListener("keydown", function(e) {  
@@ -77,9 +77,7 @@ document.querySelector('#campo_fixo').addEventListener("blur", function(e) {
     telefone = telefone.replace(/^(\d{2})(\d)/g,"($1) $2"); 
     resultado_telefone = telefone.replace(/(\d)(\d{4})$/,"$1-$2");
     document.getElementById('campo_fixo').value = resultado_telefone;
+    }
 
-    
-  }
-  
 })
 
