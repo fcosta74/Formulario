@@ -36,18 +36,18 @@ label {
     display: inline-block;
     width: 120px;
     color: white;
-    padding: 5px;
+    padding: 0.5px;
 }
 
 input{
-    padding: 10px;
+    padding: 6px;
     border: 1px solid greenyellow;
     border-radius: 5px;
     height: 35px;
     box-sizing: border-box;
     background-color: white;
     vertical-align: middle;
-    font-size: 18px;
+    font-size: 27px;
     
 }
 .data{
@@ -87,10 +87,11 @@ button:hover {
 }
 textarea{
     vertical-align: top;
-    height: 140px;
+    height: 150px;
+    width: 250px;
     background-color: white;
     border-radius: 5px; 
-    font-size: 18px;
+    font-size: 15px;
     border: 1px solid greenyellow;
     resize: none;
     
@@ -114,5 +115,6 @@ select{
     textarea{
         font-size: 15px;
         height: 140px;
+        width: 170px;
     }
 }

@@ -12,15 +12,15 @@
             <div>
             
                 <label>Nome:</label>
-                <input type="text" class="nameClient" placeholder="Digite seu nome"/ required>            
+                <input type="text" class="nameClient" / required>            
             </div>
             <div>
                 <label>Sobrenome:</label>
-                <input type="text" class="sobrenome"  placeholder="Digite seu sobrenome"/ required>
+                <input type="text" class="sobrenome"  / required>
             </div>
             <div>
                 <label>E-mail:</label>
-                <input type="email" class="email" placeholder="digite o seu e-mail"/ required>
+                <input type="email" class="email" / required>
             </div>
             <div classe="data">
                 <label>Data de Nascimento: </label>
@@ -28,22 +28,16 @@
             </div>  
             <div>
                 <label>CPF:</label> 
-                <input type="text" id="campo_cpf" placeholder="Digite o seu CPF" maxlength="11"/ required>
+                <input type="text" id="campo_cpf"  maxlength="11"/ required>
             </div>  
             <div>
                 <label>Celular: </label>
-                <input type="text" id="campo_celular" placeholder="Digite nº celular" maxlength="11"/ required>
+                <input type="text" id="campo_celular"  maxlength="11"/ required>
             </div>   
             <div>
                 <label>Telefone Fixo:</label> 
-                <input type="text" id="campo_fixo" placeholder="Digite nº telefone fixo" maxlength="10" />
+                <input type="text" id="campo_fixo"  maxlength="10" />
             </div> 
-            <div class="cor">
-                <h2>Sexo:</h2>
-                <input type="radio" name="sexo" value="fem"> Feminino<br>
-                <input type="radio" name="sexo" value="mas"> Masculino<br>
-                <input type="radio" name="sexo" value="other"> Outro<br>
-            </div>
             <div class="irmaos">
                 <label>Quantidade de Irmãos:</label>
                     <select name="irmaos">
@@ -60,9 +54,16 @@
                         <option value="dez">10</option>
                     </select>
             </div>
+            <div class="cor">
+                <h2>Sexo:</h2>
+                <input type="radio" name="sexo" value="fem"> Feminino<br>
+                <input type="radio" name="sexo" value="mas"> Masculino<br>
+                <input type="radio" name="sexo" value="other"> Outro<br>
+            </div>
+            
             <div>
                 <label>Mensagem: </label>
-                <textarea name="descricao" rows="10" placeholder="*Deixe um conmetário*"></textarea>
+                <textarea name="descricao" rows="10" placeholder="*Deixe uma mensagem*"/ required></textarea>
             </div>             
             <button type="submit" onclick="funcao1()" value="Exibir Alert"> Enviar</button>
                    
