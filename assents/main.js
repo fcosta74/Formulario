@@ -81,3 +81,4 @@ document.querySelector('#campo_fixo').addEventListener("blur", function(e) {
 
 })
 
+
