@@ -101,10 +101,10 @@ select{
     border-radius: 5px; 
 }
 
-@media (max-width: 760px) {
+@media (max-width: 800px) {
 
-    form {
-        width: 80%;
+    .formulario {
+        width: 95%;
         height: 100%;
     }
 }
