@@ -29,6 +29,7 @@ form{
     border: 1px solid greenyellow;
     border-radius: 10px;
     background-color: #1e1e1e;;
+
     
 }
 label {
@@ -104,10 +105,14 @@ select{
 @media (max-width: 800px) {
 
     .formulario {
-        width: 95%;
+        width: 94%;
         height: 100%;
     }
     input{
-        font-size: 25px;
+        font-size: 20px;
+    }
+    textarea{
+        font-size: 15px;
+        height: 140px;
     }
 }
