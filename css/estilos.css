@@ -50,10 +50,7 @@ input{
     font-size: 27px;
     
 }
-.data{
-    
-    font-size: 17px;
-}
+
 .cor{
     color: white;
     float: right;
@@ -117,4 +114,5 @@ select{
         height: 140px;
         width: 170px;
     }
+
 }
