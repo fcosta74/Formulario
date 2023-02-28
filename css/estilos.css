@@ -100,7 +100,7 @@ select{
     border-radius: 5px; 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 450px) {
 
     .formulario {
         width: 94%;
