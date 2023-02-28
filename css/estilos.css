@@ -11,7 +11,7 @@ body{
 }
 
 h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     width: 100%;
     text-align: center;
@@ -108,7 +108,6 @@ select{
     }
     input{
         font-size: 22px;
-	width: 14em;
     }
     textarea{
         font-size: 15px;
