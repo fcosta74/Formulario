@@ -103,7 +103,7 @@ select{
 @media (max-width: 450px) {
 
     .formulario {
-        width: 94%;
+        width: 90%;
         height: 100%;
     }
     input{
